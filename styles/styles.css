@@ -32,3 +32,48 @@ body {
 /* Article section */
 
 /* Article__Two */
+/* Article__Two */
+
+.article-Two--heading,
+.article-Two__sub-Heading {
+  color: var(--heading-color);
+}
+.article-Two--heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.article__Two-image {
+  width: 40px;
+  margin: 1rem 1.5rem 0 0;
+}
+
+.article__Two-subSection {
+  padding-left: 15px;
+}
+
+.article-Two__sub-Heading {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.article-Two__para {
+  font-size: 1.5rem;
+}
+
+.section-One {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+.section {
+  box-shadow: 0 0 20px grey;
+  transition: 0.15s;
+}
+
+.section-One:hover {
+  box-shadow: 0 0 15px grey;
+  transition: 0.15s;
+}
