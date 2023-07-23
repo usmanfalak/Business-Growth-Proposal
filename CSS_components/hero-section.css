@@ -1,0 +1,27 @@
+/* Hero--section */
+
+.hero--section {
+  padding-top: 4rem;
+}
+
+.hero__heading {
+  color: var(--heading-color);
+  font-size: 2.5rem;
+}
+
+.hero__para {
+  color: var(--para-color);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 2rem 0;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 2rem 4rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: var(--btn-color);
+  color: var(--white-color);
+}
