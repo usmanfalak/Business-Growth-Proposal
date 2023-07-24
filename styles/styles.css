@@ -9,6 +9,7 @@
   --section-One-user-occupation: #818b9c;
   --section-Three-para: #f8f7fb;
   --section-Three-btn: #b058c3;
+  --social-media-links: #fafafa;
 }
 
 *,
@@ -46,3 +47,26 @@ body {
 /* Section--Two */
 
 /* Section--Three */
+.footer__logo {
+  margin-top: 3rem;
+}
+
+.footer__email,
+.footer__address {
+  font-size: 2rem;
+  color: var(--para-color);
+}
+.footer__address {
+  width: 60%;
+}
+
+.footer__email {
+  margin-bottom: 3rem;
+}
+
+.footer__social-links {
+  border: 1px solid var(--social-media-links);
+  padding: 10px 10px;
+  background-color: var(--social-media-links);
+  margin-right: 10px;
+}
