@@ -1,0 +1,27 @@
+.section__Three-card {
+  background: rgb(255, 92, 152);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 92, 152, 1) 0%,
+    rgba(123, 64, 192, 1) 100%
+  );
+  color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem 0.6rem 0 1.7rem;
+}
+
+.section__Three-InnerHeading {
+  /* text-align: center; */
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 2rem 0 0;
+}
+
+.section__Three-para {
+  font-size: 1.5rem;
+  color: var(--section-Three-para);
+}
+
+.section__Three-btn {
+  color: var(--section-Three-btn);
+}

@@ -7,6 +7,8 @@
   --anchor-getStarted: #c5ccd8;
   --section-One-user-name: #2e1088;
   --section-One-user-occupation: #818b9c;
+  --section-Three-para: #f8f7fb;
+  --section-Three-btn: #b058c3;
 }
 
 *,
@@ -43,49 +45,4 @@ body {
 
 /* Section--Two */
 
-.section--Two-heading,
-.section__Two-innerHeading {
-  font-size: 3rem;
-  color: var(--heading-color);
-}
-
-.section__Two-innerDiv {
-  margin-bottom: 6rem;
-}
-
-.section__Two-image {
-  object-fit: cover;
-  width: 100%;
-}
-
-.section__Two-innerHeading {
-  display: block;
-  font-weight: 700;
-  margin: 3rem 0 2rem;
-}
-
-.section__Two-innerHeading:hover {
-  color: var(--btn-color);
-}
-
-.section__Two-blogReading {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-left: 2rem;
-  color: var(--para-color);
-}
-
-.section__Two-blogDate {
-  font-size: 2rem;
-  margin: 3rem 0 0;
-  color: var(--btn-color);
-}
-
-.section__Two-innerDiv:hover img {
-  transform: rotate(1deg) scale(1.1);
-}
-
-.section--Two-innerDiv img {
-  transition: all 0.4s ease-out 0s;
-  transform: rotate(1deg) scale(1);
-}
+/* Section--Three */
