@@ -8,20 +8,32 @@
   color: #fff;
   border-radius: 10px;
   padding: 1.5rem 0.6rem 0 1.7rem;
+  height: 32rem;
 }
 
 .section__Three-InnerHeading {
   /* text-align: center; */
-  font-size: 2.5rem;
-  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 800;
   margin: 2rem 0 0;
 }
 
 .section__Three-para {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  line-height: 1.8;
   color: var(--section-Three-para);
+  padding-bottom: 1rem;
+}
+
+.section__Three-para {
+  padding-left: 2rem;
 }
 
 .section__Three-btn {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-left: 2rem;
   color: var(--section-Three-btn);
+  background-color: var(--white-color);
 }

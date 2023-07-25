@@ -1,13 +1,17 @@
 /* Section--Two */
 
+.section--Two-heading {
+  text-align: center;
+}
+
 .section--Two-heading,
 .section__Two-innerHeading {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--heading-color);
 }
 
 .section__Two-innerDiv {
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
 }
 
 .section__Two-image {
@@ -26,15 +30,15 @@
 }
 
 .section__Two-blogReading {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 500;
   margin-left: 2rem;
   color: var(--para-color);
 }
 
 .section__Two-blogDate {
-  font-size: 2rem;
-  margin: 3rem 0 0;
+  font-size: 1.7rem;
+  margin: 2rem 0 0;
   color: var(--btn-color);
 }
 

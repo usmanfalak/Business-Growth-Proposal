@@ -5,8 +5,9 @@
   color: var(--heading-color);
 }
 .article-Two--heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
+  font-weight: 700;
 }
 
 .article__Two-image {
@@ -32,11 +33,6 @@
   justify-content: space-between;
   margin-bottom: 3rem;
   padding: 2rem;
-}
-
-.section {
-  box-shadow: 0 0 20px grey;
-  transition: 0.15s;
 }
 
 .section-One:hover {

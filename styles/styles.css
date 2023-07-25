@@ -27,7 +27,7 @@ html {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  height: 450vh;
+  height: 5000vh;
   padding: 0 2rem;
   margin: 0;
   border: 5px solid tomato;
@@ -37,9 +37,8 @@ body {
 
 /* Card--section */
 
-/* Article section */
+/* Article One */
 
-/* Article__Two */
 /* Article__Two */
 
 /* Article__Three  */
@@ -51,90 +50,3 @@ body {
 /* Section--Three */
 
 /* footer section */
-
-.footer--section {
-  background-image: url(/images/background-images/footer_bg.png.webp);
-  object-fit: cover;
-}
-
-.footer__logo {
-  margin-top: 3rem;
-}
-
-.footer__email,
-.footer__address {
-  font-size: 2rem;
-  color: var(--para-color);
-}
-.footer__address {
-  width: 80%;
-}
-
-.footer__email {
-  margin-bottom: 3rem;
-}
-
-.footer__social-links {
-  border: 1px solid var(--social-media-links);
-  padding: 10px 10px;
-  background-color: var(--social-media-links);
-  margin-right: 10px;
-}
-
-.social__icons {
-  font-size: 20px;
-  color: #949eb2;
-  vertical-align: middle;
-}
-
-.footer__social-links:hover {
-  border: 1px solid var(--pink-color);
-  padding: 10px 10px;
-  background-color: var(--pink-color);
-  margin-right: 10px;
-  transition: all 0.4s ease-out 0s;
-}
-.footer__social-links:hover .social__icons {
-  color: #f8f7fb;
-  transition: all 0.3s ease-out 0s;
-}
-
-.footer__OtherLinks {
-  margin-top: 7rem;
-}
-
-.footer__OtherLinks-Spacing {
-  margin-bottom: 5rem;
-  display: block;
-}
-
-.footer__OtherLinks-Heading {
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: var(--footer-OtherLinksHeading);
-}
-
-.footer__OtherLinks ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer__OtherLinks li {
-  padding-bottom: 1rem;
-}
-
-.footer__OtherLinks a {
-  text-decoration: none;
-  font-size: 1.6rem;
-  color: var(--para-color);
-}
-
-.footer__OtherLinks-Elements li a:hover {
-  color: var(--pink-color);
-}
-
-.footer__copyright {
-  font-size: 1.7rem;
-  text-align: center;
-  color: var(--para-color);
-}

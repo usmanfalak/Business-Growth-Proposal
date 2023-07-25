@@ -3,6 +3,7 @@
 .footer--section {
   background-image: url(/images/background-images/footer_bg.png.webp);
   object-fit: cover;
+  margin-top: 4rem;
 }
 
 .footer__logo {
@@ -15,11 +16,15 @@
   color: var(--para-color);
 }
 .footer__address {
-  width: 80%;
+  width: 85%;
 }
 
 .footer__email {
   margin-bottom: 3rem;
+}
+
+.footer__area {
+  margin-top: 7rem;
 }
 
 .footer__social-links {
@@ -57,8 +62,9 @@
 }
 
 .footer__OtherLinks-Heading {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 600;
+  padding-bottom: 2rem;
   color: var(--footer-OtherLinksHeading);
 }
 
@@ -73,7 +79,7 @@
 
 .footer__OtherLinks a {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: var(--para-color);
 }
 

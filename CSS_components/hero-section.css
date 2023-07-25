@@ -1,25 +1,32 @@
 /* Hero--section */
 
 .hero--section {
+  margin-bottom: 17rem;
   padding-top: 4rem;
+  background-image: url(/images/background-images/h1_hero.png.webp);
+  object-fit: cover;
+  background-position: 100% 100%;
 }
 
 .hero__heading {
   color: var(--heading-color);
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
 .hero__para {
   color: var(--para-color);
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 1.7rem;
+  line-height: 2;
   padding: 2rem 0;
 }
 
 .btn {
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 2rem 4rem;
+  padding: 2rem 5.5rem;
+  letter-spacing: 0.8px;
+
   border: 0;
   border-radius: 5px;
   background-color: var(--btn-color);

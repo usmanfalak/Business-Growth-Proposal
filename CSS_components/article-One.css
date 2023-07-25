@@ -1,4 +1,17 @@
+.article--One-section {
+  margin-bottom: 12rem;
+}
+
 .article__section-img {
   object-fit: cover;
   max-width: 100%;
+}
+
+.article__One-InnerHeading {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.article__One-para {
+  margin: 0 0 4rem;
 }
