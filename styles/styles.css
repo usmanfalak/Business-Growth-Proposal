@@ -5,6 +5,7 @@
   --btn-color: #ff5c97;
   --white-color: #fff4f8;
   --anchor-getStarted: #c5ccd8;
+  --section-One-Quotes: #e3def0;
   --section-One-user-name: #2e1088;
   --section-One-user-occupation: #818b9c;
   --section-Three-para: #f8f7fb;
@@ -12,6 +13,7 @@
   --social-media-links: #fafafa;
   --footer-OtherLinksHeading: #013061;
   --pink-color: #e83e8c;
+  --article-Three-detail: #57667e;
 }
 
 *,
@@ -31,6 +33,9 @@ body {
   padding: 0 2rem;
   margin: 0;
   border: 5px solid tomato;
+  background-image: url(/images/background-images/h1_hero.png.webp);
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 /* Hero Section */

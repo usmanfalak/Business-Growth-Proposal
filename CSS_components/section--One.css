@@ -1,23 +1,23 @@
 /* Section--One */
 
 .section--One__heading {
-  font-size: 2.7rem;
+  font-size: 3rem;
   text-align: center;
-  margin: 0;
   color: var(--heading-color);
+  margin: 0;
 }
 
 .section--One {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin: 0;
-  text-align: center;
 }
 
 .section__para {
+  text-align: center;
   margin: 6rem 0 3rem 0;
+  padding: 0 5rem;
   font-size: 2rem;
   font-style: italic;
   color: var(--para-color);
@@ -41,9 +41,61 @@
 
 .Section__user {
   display: flex;
+  padding-top: 2rem;
 }
 .Section__Sub-user {
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+@media screen and (min-width: 768px) {
+  .section--One__heading {
+    font-size: 5.5rem;
+    font-weight: bolder;
+    padding: 0 7rem;
+  }
+
+  .section__para {
+    margin: 2rem 0 3rem 0;
+
+    font-size: 2.2rem;
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .section--One__heading {
+    position: relative;
+  }
+
+  .section--One__heading::before {
+    position: absolute;
+    top: 6rem;
+    left: 0rem;
+    content: url(/images/Section-One-image/quote.png);
+    height: 7rem;
+  }
+
+  .section--One {
+    position: relative;
+  }
+
+  .Section__user::after {
+    position: absolute;
+    right: 5rem;
+    bottom: 0;
+    content: url(/images/Section-One-image/quote--2.png);
+  }
+
+  .section__para {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .section--One__heading::before {
+    top: 4rem;
+    left: 4rem;
+  }
 }

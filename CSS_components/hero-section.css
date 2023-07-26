@@ -3,9 +3,6 @@
 .hero--section {
   margin-bottom: 17rem;
   padding-top: 4rem;
-  background-image: url(/images/background-images/h1_hero.png.webp);
-  object-fit: cover;
-  background-position: 100% 100%;
 }
 
 .hero__heading {
@@ -31,4 +28,67 @@
   border-radius: 5px;
   background-color: var(--btn-color);
   color: var(--white-color);
+}
+
+.hero--section__img {
+  width: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__heading {
+    font-size: 9rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .hero__para {
+    font-size: 2.3rem;
+    line-height: 1.7;
+    width: 60%;
+    margin-bottom: 7rem;
+  }
+
+  .btn {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 2.6rem 8rem;
+    letter-spacing: 0.8px;
+  }
+
+  .hero--section__img {
+    width: 0;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .hero--section {
+    display: flex;
+    flex-direction: row;
+  }
+  .left__section {
+    padding: 10rem 0 0 7rem;
+  }
+
+  .hero__heading {
+    font-size: 8rem;
+    line-height: 1;
+    font-weight: 700;
+  }
+
+  .hero--section__img {
+    width: auto;
+    object-fit: cover;
+  }
+  .hero__para {
+    font-size: 2.3rem;
+    line-height: 1.7;
+    width: 70%;
+    margin-bottom: 3rem;
+  }
+
+  .btn {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 2.6rem 8rem;
+    letter-spacing: 0.8px;
+  }
 }

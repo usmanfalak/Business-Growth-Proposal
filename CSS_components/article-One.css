@@ -14,4 +14,46 @@
 
 .article__One-para {
   margin: 0 0 4rem;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .article__section-img {
+    object-fit: cover;
+    /* width: 100%; */
+  }
+
+  .article__One-InnerHeading {
+    font-size: 4.5rem;
+    font-weight: 700;
+  }
+
+  .article__One-para {
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .article--One-section {
+    padding: 0 8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .article__section-img {
+    object-fit: cover;
+  }
+
+  .article__One-InnerHeading {
+    padding-top: 5rem;
+    font-size: 6rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .article__OneInnerSpacing {
+    padding-left: 2rem;
+  }
+  .article__One-para {
+    padding-top: 4rem;
+  }
 }

@@ -15,10 +15,6 @@
   color: var(--heading-color);
 }
 
-.anchor__get-Started {
-  color: var(--anchor-getStarted);
-}
-
 .anchor__tag {
   font-size: 2rem;
   padding-left: 0.5rem;
@@ -27,11 +23,18 @@
 .card__para {
   font-size: 1.7rem;
   padding-bottom: 3rem;
+  color: var(--para-color);
+}
+
+.anchor__get-Started {
+  color: var(--anchor-getStarted);
 }
 
 .card {
-  padding: 3rem;
+  padding: 5rem 3rem 2rem 3rem;
   margin: 3rem 3rem 0;
+  height: 450px;
+  width: 400px;
 }
 
 .card__Two {
@@ -52,4 +55,47 @@
   fill: #7b40c0;
   color: #7b40c0;
   transition: 0.4s;
+}
+
+/* Card Section media queries  */
+@media screen and (min-width: 768px) {
+  .card__section-heading {
+    font-weight: 700;
+    font-size: 5rem;
+    color: var(--heading-color);
+  }
+
+  .card__heading {
+    font-size: 2.6rem;
+  }
+
+  .card {
+    margin: 3rem 3rem 0;
+    width: auto;
+  }
+
+  .card--section {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .card__section-heading {
+    text-align: center;
+    font-size: 6rem;
+    padding: 0 30rem;
+    margin: 0;
+  }
+
+  .card--section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    height: 500px;
+    width: 400px;
+  }
 }
