@@ -89,7 +89,7 @@
   }
 
   .section__para {
-    margin: 0;
+    margin: 7rem 0 0 0;
   }
 }
 
@@ -97,5 +97,8 @@
   .section--One__heading::before {
     top: 4rem;
     left: 4rem;
+  }
+  .section__para {
+    width: 70%;
   }
 }

@@ -92,3 +92,29 @@
   text-align: center;
   color: var(--para-color);
 }
+
+@media screen and (min-width: 768px) {
+  .footer__innerDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+  }
+  .footer__OtherLinks {
+    padding: 0;
+    margin: 0;
+  }
+  .footer__copyright {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .footer__innerDiv {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+  }
+  .footer__OtherLinks {
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -29,10 +29,9 @@ html {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  height: 5000vh;
+  /* height: 1425vh; */
   padding: 0 2rem;
   margin: 0;
-  border: 5px solid tomato;
   background-image: url(/images/background-images/h1_hero.png.webp);
   object-fit: cover;
   background-repeat: no-repeat;
