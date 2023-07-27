@@ -52,6 +52,7 @@
     font-weight: 400;
     padding: 2.6rem 8rem;
     letter-spacing: 0.8px;
+    cursor: pointer;
   }
 
   .hero--section__img {
