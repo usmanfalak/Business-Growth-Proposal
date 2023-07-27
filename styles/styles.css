@@ -1,4 +1,5 @@
 :root {
+  --navbar-btn-bg: #4043bc;
   --heading-color: #2b4b80;
   --article-three-Detail: #596a82;
   --para-color: #707b8e;
@@ -31,18 +32,18 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 0 2rem;
   margin: 0;
-  background-image: url(/images/background-images/h1_hero.png.webp);
-  object-fit: cover;
-  background-repeat: no-repeat;
 }
 
-/* Hero Section */
+/* Navbar Section */
+
+.navbar__logo {
+  width: 150px;
+}
 
 /* Hero--section */
 
 .hero--section {
   margin-bottom: 17rem;
-  padding-top: 4rem;
 }
 
 .hero__heading {
@@ -371,45 +372,6 @@ body {
   transform: rotate(1deg) scale(1);
 }
 
-@media screen and (min-width: 768px) {
-  .section--Two-heading {
-    font-size: 5rem;
-    font-weight: 700;
-    /* padding: 2rem 12rem 1rem; */
-    margin: 6rem 0 4rem;
-    display: grid;
-    grid-template-columns: 60%;
-    justify-content: center;
-  }
-
-  .section--Two {
-    display: grid;
-    grid-template-columns: repeat(2, 45%);
-    justify-content: center;
-    column-gap: 3rem;
-    row-gap: 2rem;
-  }
-}
-
-@media screen and (min-width: 1240px) {
-  .section--Two-heading {
-    font-size: 5rem;
-    font-weight: 700;
-    margin: 13rem 0 8rem;
-    display: grid;
-    grid-template-columns: 35%;
-    justify-content: center;
-  }
-
-  .section--Two {
-    display: grid;
-    grid-template-columns: repeat(3, 26%);
-    justify-content: center;
-    column-gap: 3rem;
-    row-gap: 2rem;
-  }
-}
-
 /* Section--Three */
 
 .section__Three-card {
@@ -559,14 +521,6 @@ body {
   color: var(--para-color);
 }
 
-/* Media Queries  */
-/* Media Queries  */
-/* Media Queries  */
-/* Media Queries  */
-/* Media Queries  */
-/* Media Queries  */
-/* Media Queries  */
-/* Media Queries  */
 /* Media Queries  */
 
 /* hero-section  */
@@ -731,14 +685,6 @@ body {
   }
 
   /* section--Two  */
-  /* section--Two  */
-  /* section--Two  */
-  /* section--Two  */
-  /* section--Two  */
-  /* section--Two  */
-  /* section--Two  */
-  /* section--Two  */
-  /* section--Two  */
 
   .section--Two-heading {
     font-size: 5rem;
@@ -757,14 +703,8 @@ body {
     column-gap: 3rem;
     row-gap: 2rem;
   }
-  /* section--Three  */
-  /* section--Three  */
-  /* section--Three  */
-  /* section--Three  */
-  /* section--Three  */
-  /* section--Three  */
-  /* section--Three  */
-  /* section--Three  */
+
+  /* section--Two  */
 
   .section__Three-card {
     grid-template-rows: repeat(3, 28% 35% 25%);
@@ -905,12 +845,59 @@ body {
 }
 
 @media screen and (min-width: 1240px) {
+  .navbar--container {
+    padding: 3rem 4rem 0 4rem;
+  }
+
+  .navbar--container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+  }
+
+  .navbar__image,
+  .navbar__btn {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .navbar__links a {
+    text-decoration: none;
+  }
+
+  .navbar__links ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 2.5rem;
+  }
+
+  .navbar__links ul a:hover {
+    transition: all 0.4s;
+    color: var(--pink-color);
+  }
+
+  .navbar__btn button {
+    font-size: 2.2rem;
+    font-weight: normal;
+    color: var(--white-color);
+    background-color: var(--navbar-btn-bg);
+    padding: 1rem 1.5rem;
+    border: 0;
+    border-radius: 7px;
+  }
+
+  /* Hero Section  */
+
   .hero--section {
     display: flex;
     flex-direction: row;
+
+    background-image: url(/images/background-images/h1_hero.png.webp);
+    object-fit: cover;
+    background-repeat: no-repeat;
   }
   .left__section {
-    padding: 10rem 0 0 7rem;
+    padding: 5rem 0 0 7rem;
   }
 
   .hero__heading {
@@ -987,6 +974,7 @@ body {
 
   /* section--Two  */
 
+  /* section Two  */
   .section--Two-heading {
     font-size: 5rem;
     font-weight: 700;
@@ -1003,5 +991,4 @@ body {
     column-gap: 3rem;
     row-gap: 2rem;
   }
-  /* section--Three  */
 }
