@@ -734,9 +734,6 @@ body {
     padding: 0;
     margin: 0;
   }
-  .footer__copyright {
-    font-size: 2rem;
-  }
 }
 
 @media screen and (min-width: 990px) {
