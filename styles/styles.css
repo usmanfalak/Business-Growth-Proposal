@@ -823,9 +823,11 @@ body {
     padding: 0;
   }
   .footer__innerDiv {
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 2rem;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: center;
+    justify-items: center;
   }
+
   .footer__OtherLinks {
     padding: 0;
     margin: 0;
