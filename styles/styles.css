@@ -189,7 +189,6 @@ body {
 .section-One {
   display: flex;
   justify-content: center;
-  margin-bottom: 3rem;
   padding: 1rem;
 }
 
@@ -577,7 +576,6 @@ body {
 
   .article__section-img {
     object-fit: cover;
-    /* width: 100%; */
   }
 
   .article__One-InnerHeading {
@@ -602,8 +600,6 @@ body {
 
   .section-One {
     justify-content: flex-start;
-    margin-bottom: 3rem;
-    padding: 2rem 1rem 1rem 2rem;
     border: 3.2px solid var(--social-media-links);
     border-radius: 6px;
   }
@@ -625,7 +621,7 @@ body {
 
   .article__Two {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 45%);
     gap: 2rem;
     justify-content: center;
   }
@@ -636,14 +632,15 @@ body {
     font-size: 5rem;
     font-weight: 700;
     line-height: 1.1;
-    padding: 0 4rem 0;
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: center;
   }
 
   .article__Three-banners {
-    display: grid;
-    /* justify-content: center; */
-    justify-content: start;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid; */
+    justify-content: center;
+    grid-template-columns: repeat(2, 42%);
     gap: 3rem;
   }
 
@@ -737,10 +734,12 @@ body {
 }
 
 @media screen and (min-width: 990px) {
+  .article-Two--heading {
+    padding: 0 15rem;
+  }
   .article__Three-banners {
-    display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 20%);
 
     row-gap: 3rem;
   }
@@ -832,6 +831,36 @@ body {
 }
 
 @media screen and (min-width: 1140px) {
+  body {
+    background-image: url(/images/background-images/h1_hero.png.webp);
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card-bg-img {
+    position: absolute;
+    top: 75rem;
+    left: 0;
+    width: 30rem;
+    height: 50rem;
+    background-image: url(/images/background-images/card-section-bg.webp);
+    background-repeat: no-repeat;
+  }
+
+  .article__Two {
+    grid-template-columns: repeat(2, 35%);
+  }
+
+  .article-Two--heading {
+    padding: 0 25rem;
+  }
+
+  /* article THREE HEADING  */
+
+  .article--Three-heading {
+    grid-template-columns: 50%;
+  }
+
   .section--One__heading::before {
     top: 4rem;
     left: 4rem;
@@ -890,10 +919,6 @@ body {
   .hero--section {
     display: flex;
     flex-direction: row;
-
-    background-image: url(/images/background-images/h1_hero.png.webp);
-    object-fit: cover;
-    background-repeat: no-repeat;
   }
   .left__section {
     padding: 5rem 0 0 7rem;
@@ -978,6 +1003,7 @@ body {
     font-size: 5rem;
     font-weight: 700;
     margin: 13rem 0 8rem;
+
     display: grid;
     grid-template-columns: 35%;
     justify-content: center;
