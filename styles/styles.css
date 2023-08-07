@@ -48,7 +48,7 @@ body {
 
 .hero__heading {
   color: var(--heading-color);
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bolder;
 }
 
@@ -79,6 +79,8 @@ body {
 
 .card__section-heading {
   text-align: center;
+  font-size: 4rem;
+  line-height: 1.3;
 }
 .card--section {
   margin-bottom: 10rem;
@@ -90,10 +92,14 @@ body {
   row-gap: 4rem;
 }
 
+.card__heading {
+  font-size: 2.5rem;
+}
+
 .card__section-heading,
 .card__heading {
   font-weight: bolder;
-  font-size: 2.2rem;
+  /* font-size: 2.5rem; */
   color: var(--heading-color);
 }
 
@@ -171,9 +177,9 @@ body {
   color: var(--heading-color);
 }
 .article-Two--heading {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .article__Two-image {
@@ -412,16 +418,17 @@ body {
 
 .section__Three-InnerHeading {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 900;
   margin: 0;
+  line-height: 1.15;
 }
 
 .section__Three-para {
   font-size: 1.7rem;
-  line-height: 1.7;
-
+  line-height: 1.4;
   color: var(--section-Three-para);
   margin: 0;
+  padding-top: 2rem;
 }
 
 .section__Three-btn {
@@ -432,6 +439,7 @@ body {
   max-width: 230px;
   height: 68px;
   padding: 0;
+  margin-top: 1.5rem;
 }
 
 /* footer section */
@@ -499,8 +507,8 @@ body {
 
 .footer__OtherLinks-Heading {
   font-size: 2.2rem;
-  font-weight: 600;
-  padding-bottom: 2rem;
+  font-weight: 7 00;
+  padding-bottom: 0;
   color: var(--footer-OtherLinksHeading);
 }
 
